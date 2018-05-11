@@ -14,9 +14,9 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/lestrrat-go/jwx/internal/concatkdf"
-	"github.com/lestrrat-go/jwx/internal/debug"
-	"github.com/lestrrat-go/jwx/jwa"
+	"github.com/smallstep-team/jwx/internal/concatkdf"
+	"github.com/smallstep-team/jwx/internal/debug"
+	"github.com/smallstep-team/jwx/jwa"
 	"github.com/pkg/errors"
 )
 

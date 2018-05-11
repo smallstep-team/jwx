@@ -30,11 +30,11 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/lestrrat-go/jwx/jwa"
-	"github.com/lestrrat-go/jwx/jwk"
-	"github.com/lestrrat-go/jwx/jws/sign"
-	"github.com/lestrrat-go/jwx/jws/verify"
-	pdebug "github.com/lestrrat-go/pdebug"
+	"github.com/smallstep-team/jwx/jwa"
+	"github.com/smallstep-team/jwx/jwk"
+	"github.com/smallstep-team/jwx/jws/sign"
+	"github.com/smallstep-team/jwx/jws/verify"
+	pdebug "github.com/smallstep-team/pdebug"
 	"github.com/pkg/errors"
 )
 

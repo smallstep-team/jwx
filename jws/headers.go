@@ -2,9 +2,9 @@ package jws
 
 import (
 	"encoding/json"
-	"github.com/lestrrat-go/jwx/jwa"
-	"github.com/lestrrat-go/jwx/jwk"
 	"github.com/pkg/errors"
+	"github.com/smallstep-team/jwx/jwa"
+	"github.com/smallstep-team/jwx/jwk"
 )
 
 const (

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/lestrrat-go/jwx/jwa"
-	"github.com/lestrrat-go/jwx/jwk"
+	"github.com/smallstep-team/jwx/jwa"
+	"github.com/smallstep-team/jwx/jwk"
 	"github.com/stretchr/testify/assert"
 )
 

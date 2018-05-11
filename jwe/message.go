@@ -6,11 +6,11 @@ import (
 	"encoding/json"
 	"net/url"
 
-	"github.com/lestrrat-go/jwx/buffer"
-	"github.com/lestrrat-go/jwx/internal/debug"
-	"github.com/lestrrat-go/jwx/internal/emap"
-	"github.com/lestrrat-go/jwx/jwa"
-	"github.com/lestrrat-go/jwx/jwk"
+	"github.com/smallstep-team/jwx/buffer"
+	"github.com/smallstep-team/jwx/internal/debug"
+	"github.com/smallstep-team/jwx/internal/emap"
+	"github.com/smallstep-team/jwx/jwa"
+	"github.com/smallstep-team/jwx/jwk"
 	"github.com/pkg/errors"
 )
 

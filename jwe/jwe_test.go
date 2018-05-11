@@ -8,8 +8,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/lestrrat-go/jwx/internal/rsautil"
-	"github.com/lestrrat-go/jwx/jwa"
+	"github.com/smallstep-team/jwx/internal/rsautil"
+	"github.com/smallstep-team/jwx/jwa"
 	"github.com/stretchr/testify/assert"
 )
 

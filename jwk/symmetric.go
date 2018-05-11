@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/lestrrat-go/jwx/internal/base64"
-	"github.com/lestrrat-go/jwx/jwa"
-	pdebug "github.com/lestrrat-go/pdebug"
+	"github.com/smallstep-team/jwx/internal/base64"
+	"github.com/smallstep-team/jwx/jwa"
+	pdebug "github.com/smallstep-team/pdebug"
 	"github.com/pkg/errors"
 )
 

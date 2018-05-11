@@ -7,9 +7,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/lestrrat-go/jwx/jwa"
-	"github.com/lestrrat-go/pdebug"
 	"github.com/pkg/errors"
+	"github.com/smallstep-team/jwx/jwa"
+	"github.com/smallstep-team/pdebug"
 )
 
 const (
