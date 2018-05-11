@@ -9,6 +9,7 @@ import (
 	"strings"
 	"testing"
 
+	pdebug "github.com/lestrrat-go/pdebug"
 	"github.com/smallstep-team/jwx/buffer"
 	"github.com/smallstep-team/jwx/internal/ecdsautil"
 	"github.com/smallstep-team/jwx/internal/rsautil"
@@ -17,7 +18,6 @@ import (
 	"github.com/smallstep-team/jwx/jws"
 	"github.com/smallstep-team/jwx/jws/sign"
 	"github.com/smallstep-team/jwx/jws/verify"
-	pdebug "github.com/smallstep-team/pdebug"
 	"github.com/stretchr/testify/assert"
 )
 

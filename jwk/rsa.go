@@ -7,10 +7,10 @@ import (
 	"encoding/json"
 	"math/big"
 
+	pdebug "github.com/lestrrat-go/pdebug"
+	"github.com/pkg/errors"
 	"github.com/smallstep-team/jwx/internal/base64"
 	"github.com/smallstep-team/jwx/jwa"
-	pdebug "github.com/smallstep-team/pdebug"
-	"github.com/pkg/errors"
 )
 
 func newRSAPublicKey(key *rsa.PublicKey) (*RSAPublicKey, error) {

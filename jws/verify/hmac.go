@@ -4,10 +4,10 @@ import (
 	"crypto/hmac"
 	"encoding/base64"
 
+	pdebug "github.com/lestrrat-go/pdebug"
+	"github.com/pkg/errors"
 	"github.com/smallstep-team/jwx/jwa"
 	"github.com/smallstep-team/jwx/jws/sign"
-	pdebug "github.com/smallstep-team/pdebug"
-	"github.com/pkg/errors"
 )
 
 func newHMAC(alg jwa.SignatureAlgorithm) (*HMACVerifier, error) {
