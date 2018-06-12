@@ -32,10 +32,10 @@ import (
 
 	pdebug "github.com/lestrrat-go/pdebug"
 	"github.com/pkg/errors"
-	"github.com/smallstep-team/jwx/jwa"
-	"github.com/smallstep-team/jwx/jwk"
-	"github.com/smallstep-team/jwx/jws/sign"
-	"github.com/smallstep-team/jwx/jws/verify"
+	"github.com/smallstep/jwx/jwa"
+	"github.com/smallstep/jwx/jwk"
+	"github.com/smallstep/jwx/jws/sign"
+	"github.com/smallstep/jwx/jws/verify"
 )
 
 // Sign is a short way to generate a JWS in compact serialization

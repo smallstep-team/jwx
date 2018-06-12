@@ -6,9 +6,9 @@ import (
 	"crypto/rsa"
 	"fmt"
 
-	"github.com/smallstep-team/jwx/internal/debug"
-	"github.com/smallstep-team/jwx/jwa"
-	"github.com/smallstep-team/jwx/jwe/aescbc"
+	"github.com/smallstep/jwx/internal/debug"
+	"github.com/smallstep/jwx/jwa"
+	"github.com/smallstep/jwx/jwe/aescbc"
 	"github.com/pkg/errors"
 )
 

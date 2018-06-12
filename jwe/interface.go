@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/smallstep-team/jwx/buffer"
-	"github.com/smallstep-team/jwx/jwa"
-	"github.com/smallstep-team/jwx/jwk"
+	"github.com/smallstep/jwx/buffer"
+	"github.com/smallstep/jwx/jwa"
+	"github.com/smallstep/jwx/jwk"
 )
 
 // Errors used in JWE

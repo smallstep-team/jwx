@@ -1,8 +1,8 @@
 package jws
 
 import (
-	"github.com/smallstep-team/jwx/jwa"
-	"github.com/smallstep-team/jwx/jwk"
+	"github.com/smallstep/jwx/jwa"
+	"github.com/smallstep/jwx/jwk"
 )
 
 type EncodedSignature struct {

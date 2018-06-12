@@ -1,8 +1,8 @@
 package jws
 
 import (
-	"github.com/smallstep-team/jwx/internal/option"
-	"github.com/smallstep-team/jwx/jws/sign"
+	"github.com/smallstep/jwx/internal/option"
+	"github.com/smallstep/jwx/jws/sign"
 )
 
 type Option = option.Interface

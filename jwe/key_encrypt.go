@@ -14,9 +14,9 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/smallstep-team/jwx/internal/concatkdf"
-	"github.com/smallstep-team/jwx/internal/debug"
-	"github.com/smallstep-team/jwx/jwa"
+	"github.com/smallstep/jwx/internal/concatkdf"
+	"github.com/smallstep/jwx/internal/debug"
+	"github.com/smallstep/jwx/jwa"
 	"github.com/pkg/errors"
 )
 

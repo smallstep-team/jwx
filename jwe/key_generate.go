@@ -7,9 +7,9 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/smallstep-team/jwx/internal/concatkdf"
-	"github.com/smallstep-team/jwx/jwa"
-	"github.com/smallstep-team/jwx/jwk"
+	"github.com/smallstep/jwx/internal/concatkdf"
+	"github.com/smallstep/jwx/jwa"
+	"github.com/smallstep/jwx/jwk"
 	"github.com/pkg/errors"
 )
 

@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/smallstep-team/jwx/jwa"
-	"github.com/smallstep-team/jwx/jwt"
+	"github.com/smallstep/jwx/jwa"
+	"github.com/smallstep/jwx/jwt"
 )
 
 func ExampleSignAndParse() {
@@ -53,7 +53,7 @@ func ExampleSignAndParse() {
 
 func ExampleToken() {
 	t := jwt.New()
-	t.Set(jwt.SubjectKey, `https://github.com/smallstep-team/jwx/jwt`)
+	t.Set(jwt.SubjectKey, `https://github.com/smallstep/jwx/jwt`)
 	t.Set(jwt.AudienceKey, `Golang Users`)
 	t.Set(jwt.IssuedAtKey, time.Unix(aLongLongTimeAgo, 0))
 	t.Set(`privateClaimKey`, `Hello, World!`)
@@ -77,10 +77,10 @@ func ExampleToken() {
 	//   "aud": "Golang Users",
 	//   "iat": 233431200,
 	//   "privateClaimKey": "Hello, World!",
-	//   "sub": "https://github.com/smallstep-team/jwx/jwt"
+	//   "sub": "https://github.com/smallstep/jwx/jwt"
 	// }
 	// aud -> 'Golang Users'
 	// iat -> '1977-05-25T18:00:00Z'
 	// privateClaimKey -> 'Hello, World!'
-	// sub -> 'https://github.com/smallstep-team/jwx/jwt'
+	// sub -> 'https://github.com/smallstep/jwx/jwt'
 }

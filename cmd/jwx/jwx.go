@@ -9,8 +9,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/smallstep-team/jwx/jwk"
-	"github.com/smallstep-team/jwx/jws"
+	"github.com/smallstep/jwx/jwk"
+	"github.com/smallstep/jwx/jws"
 	"github.com/pkg/errors"
 )
 

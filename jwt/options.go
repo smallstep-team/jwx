@@ -1,8 +1,8 @@
 package jwt
 
 import (
-	"github.com/smallstep-team/jwx/internal/option"
-	"github.com/smallstep-team/jwx/jwa"
+	"github.com/smallstep/jwx/internal/option"
+	"github.com/smallstep/jwx/jwa"
 )
 
 type Option = option.Interface

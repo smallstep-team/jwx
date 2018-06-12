@@ -9,7 +9,7 @@ import (
 
 	"github.com/lestrrat-go/pdebug"
 	"github.com/pkg/errors"
-	"github.com/smallstep-team/jwx/jwa"
+	"github.com/smallstep/jwx/jwa"
 )
 
 const (

@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/smallstep-team/jwx/internal/option"
+	"github.com/smallstep/jwx/internal/option"
 )
 
 const (

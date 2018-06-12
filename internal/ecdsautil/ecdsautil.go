@@ -7,7 +7,7 @@ import (
 	"math/big"
 	"strconv"
 
-	"github.com/smallstep-team/jwx/buffer"
+	"github.com/smallstep/jwx/buffer"
 	"github.com/pkg/errors"
 )
 

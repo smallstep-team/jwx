@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/smallstep-team/jwx/jwa"
-	"github.com/smallstep-team/jwx/jws"
-	"github.com/smallstep-team/jwx/jws/sign"
-	"github.com/smallstep-team/jwx/jws/verify"
+	"github.com/smallstep/jwx/jwa"
+	"github.com/smallstep/jwx/jws"
+	"github.com/smallstep/jwx/jws/sign"
+	"github.com/smallstep/jwx/jws/verify"
 	"github.com/stretchr/testify/assert"
 )
 

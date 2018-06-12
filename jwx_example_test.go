@@ -8,18 +8,18 @@ import (
 	"log"
 	"time"
 
-	"github.com/smallstep-team/jwx/jwa"
-	"github.com/smallstep-team/jwx/jwe"
-	"github.com/smallstep-team/jwx/jwk"
-	"github.com/smallstep-team/jwx/jws"
-	"github.com/smallstep-team/jwx/jwt"
+	"github.com/smallstep/jwx/jwa"
+	"github.com/smallstep/jwx/jwe"
+	"github.com/smallstep/jwx/jwk"
+	"github.com/smallstep/jwx/jws"
+	"github.com/smallstep/jwx/jwt"
 )
 
 func ExampleJWT() {
 	const aLongLongTimeAgo = 233431200
 
 	t := jwt.New()
-	t.Set(jwt.SubjectKey, `https://github.com/smallstep-team/jwx/jwt`)
+	t.Set(jwt.SubjectKey, `https://github.com/smallstep/jwx/jwt`)
 	t.Set(jwt.AudienceKey, `Golang Users`)
 	t.Set(jwt.IssuedAtKey, time.Unix(aLongLongTimeAgo, 0))
 	t.Set(`privateClaimKey`, `Hello, World!`)

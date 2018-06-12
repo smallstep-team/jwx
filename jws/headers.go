@@ -3,8 +3,8 @@ package jws
 import (
 	"encoding/json"
 	"github.com/pkg/errors"
-	"github.com/smallstep-team/jwx/jwa"
-	"github.com/smallstep-team/jwx/jwk"
+	"github.com/smallstep/jwx/jwa"
+	"github.com/smallstep/jwx/jwk"
 )
 
 const (

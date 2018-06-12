@@ -12,8 +12,8 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/smallstep-team/jwx/internal/base64"
-	"github.com/smallstep-team/jwx/jwa"
+	"github.com/smallstep/jwx/internal/base64"
+	"github.com/smallstep/jwx/jwa"
 	"github.com/pkg/errors"
 )
 

@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/smallstep-team/jwx/jwa"
-	"github.com/smallstep-team/jwx/jws"
-	"github.com/smallstep-team/jwx/jwt"
+	"github.com/smallstep/jwx/jwa"
+	"github.com/smallstep/jwx/jws"
+	"github.com/smallstep/jwx/jwt"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -145,7 +145,7 @@ func TestToken(t *testing.T) {
 func TestGHIssue10(t *testing.T) {
 	t.Run(jwt.IssuerKey, func(t *testing.T) {
 		t1 := jwt.New()
-		t1.Set(jwt.IssuerKey, "github.com/smallstep-team/jwx")
+		t1.Set(jwt.IssuerKey, "github.com/smallstep/jwx")
 
 		// This should succeed, because WithIssuer is not provided in the
 		// optinal parameters
@@ -188,7 +188,7 @@ func TestGHIssue10(t *testing.T) {
 	})
 	t.Run(jwt.SubjectKey, func(t *testing.T) {
 		t1 := jwt.New()
-		t1.Set(jwt.SubjectKey, "github.com/smallstep-team/jwx")
+		t1.Set(jwt.SubjectKey, "github.com/smallstep/jwx")
 
 		// This should succeed, because WithSubject is not provided in the
 		// optinal parameters

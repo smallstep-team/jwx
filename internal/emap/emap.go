@@ -10,7 +10,7 @@ import (
 	"encoding/json"
 	"reflect"
 
-	"github.com/smallstep-team/jwx/buffer"
+	"github.com/smallstep/jwx/buffer"
 	"github.com/pkg/errors"
 )
 

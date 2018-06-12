@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/smallstep-team/jwx/internal/debug"
-	"github.com/smallstep-team/jwx/internal/padbuf"
+	"github.com/smallstep/jwx/internal/debug"
+	"github.com/smallstep/jwx/internal/padbuf"
 	"github.com/pkg/errors"
 )
 

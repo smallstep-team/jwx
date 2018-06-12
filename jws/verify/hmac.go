@@ -6,8 +6,8 @@ import (
 
 	pdebug "github.com/lestrrat-go/pdebug"
 	"github.com/pkg/errors"
-	"github.com/smallstep-team/jwx/jwa"
-	"github.com/smallstep-team/jwx/jws/sign"
+	"github.com/smallstep/jwx/jwa"
+	"github.com/smallstep/jwx/jws/sign"
 )
 
 func newHMAC(alg jwa.SignatureAlgorithm) (*HMACVerifier, error) {

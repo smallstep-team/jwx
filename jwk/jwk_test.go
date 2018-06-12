@@ -8,9 +8,9 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/smallstep-team/jwx/internal/base64"
-	"github.com/smallstep-team/jwx/jwa"
-	"github.com/smallstep-team/jwx/jwk"
+	"github.com/smallstep/jwx/internal/base64"
+	"github.com/smallstep/jwx/jwa"
+	"github.com/smallstep/jwx/jwk"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 )

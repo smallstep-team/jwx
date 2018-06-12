@@ -6,11 +6,11 @@ import (
 	"encoding/json"
 	"net/url"
 
-	"github.com/smallstep-team/jwx/buffer"
-	"github.com/smallstep-team/jwx/internal/debug"
-	"github.com/smallstep-team/jwx/internal/emap"
-	"github.com/smallstep-team/jwx/jwa"
-	"github.com/smallstep-team/jwx/jwk"
+	"github.com/smallstep/jwx/buffer"
+	"github.com/smallstep/jwx/internal/debug"
+	"github.com/smallstep/jwx/internal/emap"
+	"github.com/smallstep/jwx/jwa"
+	"github.com/smallstep/jwx/jwk"
 	"github.com/pkg/errors"
 )
 

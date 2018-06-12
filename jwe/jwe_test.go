@@ -8,8 +8,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/smallstep-team/jwx/internal/rsautil"
-	"github.com/smallstep-team/jwx/jwa"
+	"github.com/smallstep/jwx/internal/rsautil"
+	"github.com/smallstep/jwx/jwa"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -3,7 +3,7 @@ package jwe
 import (
 	"testing"
 
-	"github.com/smallstep-team/jwx/jwa"
+	"github.com/smallstep/jwx/jwa"
 	"github.com/stretchr/testify/assert"
 )
 

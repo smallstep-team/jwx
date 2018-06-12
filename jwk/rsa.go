@@ -9,8 +9,8 @@ import (
 
 	pdebug "github.com/lestrrat-go/pdebug"
 	"github.com/pkg/errors"
-	"github.com/smallstep-team/jwx/internal/base64"
-	"github.com/smallstep-team/jwx/jwa"
+	"github.com/smallstep/jwx/internal/base64"
+	"github.com/smallstep/jwx/jwa"
 )
 
 func newRSAPublicKey(key *rsa.PublicKey) (*RSAPublicKey, error) {

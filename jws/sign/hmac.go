@@ -6,7 +6,7 @@ import (
 	"crypto/sha512"
 	"hash"
 
-	"github.com/smallstep-team/jwx/jwa"
+	"github.com/smallstep/jwx/jwa"
 	"github.com/pkg/errors"
 )
 

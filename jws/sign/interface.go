@@ -4,7 +4,7 @@ import (
 	"crypto/ecdsa"
 	"crypto/rsa"
 
-	"github.com/smallstep-team/jwx/jwa"
+	"github.com/smallstep/jwx/jwa"
 )
 
 type Signer interface {

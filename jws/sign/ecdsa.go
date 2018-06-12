@@ -5,7 +5,7 @@ import (
 	"crypto/ecdsa"
 	"crypto/rand"
 
-	"github.com/smallstep-team/jwx/jwa"
+	"github.com/smallstep/jwx/jwa"
 	"github.com/pkg/errors"
 )
 

@@ -5,7 +5,7 @@ import (
 	"crypto/rsa"
 	"log"
 
-	"github.com/smallstep-team/jwx/jwa"
+	"github.com/smallstep/jwx/jwa"
 )
 
 func ExampleEncrypt() {

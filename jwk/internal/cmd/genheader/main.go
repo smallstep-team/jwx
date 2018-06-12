@@ -146,7 +146,7 @@ func generateHeaders() error {
 		fmt.Fprintf(&buf, "\n%s", strconv.Quote(pkg))
 	}
 	fmt.Fprintf(&buf, "\n\n")
-	for _, pkg := range []string{"github.com/smallstep-team/jwx/jwa", "github.com/lestrrat-go/pdebug", "github.com/pkg/errors"} {
+	for _, pkg := range []string{"github.com/smallstep/jwx/jwa", "github.com/lestrrat-go/pdebug", "github.com/pkg/errors"} {
 		fmt.Fprintf(&buf, "\n%s", strconv.Quote(pkg))
 	}
 	fmt.Fprintf(&buf, "\n)")
